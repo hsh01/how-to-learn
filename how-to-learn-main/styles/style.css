@@ -156,17 +156,20 @@ margin: 100px auto 0 auto;
 }
 
 .table {
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
+  
 }
 
 .table__cell {
-  width: 250px;
   margin-top: 60px;
-
+  margin-bottom: 0;
+  width: 250px;
+  list-style-type:none;
+  padding-left: 0;
 }
 
 .table__heading {
@@ -182,24 +185,132 @@ margin: 100px auto 0 auto;
   padding-top: 20px;
 }
 
+.feynman {
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  margin-top: 100px;
+  height: 890px;
+  
+}
 
+.feynman__title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 648px;
+  z-index: 4;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
 
+.feynman__title-text {
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+}
 
+.feynman__subtitle {
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
 
+.feynman__subtitle-text {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-align: center;
+}
 
+.feynman__link {
+  color: #2f80ed;
+  text-decoration: none;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+}
 
+.feynman__illustration {
+  background-image: url(../images/feynman.png); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  z-index: 2;
+  background-size: cover;
+  background-clip:content-box;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  background-color:#1f1f1f;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  margin-bottom: 0;
+  color: white;
+}
+  
+.section-title__text_theme_dark {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+  
+.section-subtitle_theme_dark {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+  
+.table_theme_dark {
+  padding: 0px auto 90px auto;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  margin-bottom: 0;
+  list-style-type:none;
+  padding-left: 0;
 }
+  
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+    
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+  
 
-.kaufman {
-  background-color:  #1f1f1f;
-}
+
+
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
