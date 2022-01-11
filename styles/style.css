@@ -1,11 +1,11 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
+  /* Ð¼Ñ‹ ÐµÑ‰Ñ‘ Ð½Ðµ ÑƒÐ¼ÐµÐµÐ¼ Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ð¼Ð¾Ð±Ð¸Ð»ÑŒÐ½ÑƒÑŽ Ð²ÐµÑ€ÑÐ¸ÑŽ ÑÐ°Ð¹Ñ‚Ð°, */
+  /* Ð¿Ð¾ÑÑ‚Ð¾Ð¼Ñƒ Ð²Ñ‹ÑˆÐµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð° Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ ÑˆÐ¸Ñ€Ð¸Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
+  /* Ð²Ñ‹ÑˆÐµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð»Ð¸ Ð¾Ð³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½Ð¸Ðµ Ð¿Ð¾ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð¹ ÑˆÐ¸Ñ€Ð¸Ð½Ðµ */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+  /* Ð²Ñ‹ÑˆÐµ Ð´Ð»Ñ ÑÐºÑ€Ð°Ð½Ð¾Ð² Ð±Ð¾Ð»ÑŒÑˆÐµ 1600px Ð¾Ñ‚Ñ†ÐµÐ½Ñ‚Ñ€Ð¸Ñ€Ð¾Ð²Ð°Ð»Ð¸ Ð²ÐµÑÑŒ ÐºÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   }
 
@@ -18,7 +18,7 @@
   position: relative;
   background-color: #f2f2f2;
 
-  /* выше установили ограничения для секции */
+  /* Ð²Ñ‹ÑˆÐµ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð»Ð¸ Ð¾Ð³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½Ð¸Ñ Ð´Ð»Ñ ÑÐµÐºÑ†Ð¸Ð¸ */
 }
 
 .logo_place_header {
@@ -78,7 +78,7 @@
   background-size: cover;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* Ð½Ð¸Ð¶Ðµ Ð¼Ñ‹ Ð¿Ñ€Ð¸Ð²ÐµÐ»Ð¸ Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ð´Ð²ÑƒÑ… ÑÐµÐ»ÐµÐºÑ‚Ð¾Ñ€Ð¾Ð², Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð²Ñ‹ Ð²ÑÐ¿Ð¾Ð¼Ð½Ð¸Ð»Ð¸ Ð·Ð°Ð¿Ð¸ÑÑŒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° */
 .header__square-pic {
   background-color:  #2f80ed;
   height: 568px;
@@ -191,7 +191,7 @@ margin: 100px auto 0 auto;
   background-color: #f2f2f2;
   margin-top: 100px;
   height: 890px;
-  
+  justify-content: center;
 }
 
 .feynman__title {
@@ -200,7 +200,7 @@ margin: 100px auto 0 auto;
   justify-content: center;
   width: 648px;
   z-index: 4;
-  margin-top: 0;
+  margin: 0 auto;
   margin-bottom: 70px;
 }
 
@@ -249,17 +249,17 @@ margin: 100px auto 0 auto;
 .kaufman {
   background-color:#1f1f1f;
   overflow: hidden;
-  z-index: 0;
   color: white;
 }
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
-  width: 995;
-  height: 1006;
+  width: 995px;
+  height: 1006px;
   position: absolute;
   top: 0;
-  z-index: 2;
+  right: -210px;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
@@ -267,7 +267,7 @@ margin: 100px auto 0 auto;
   display: flex;
   justify-content: center;
   padding-top: 90px;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
   
 .section-title__text_theme_dark {
@@ -288,7 +288,8 @@ margin: 100px auto 0 auto;
 }
   
 .table_theme_dark {
-  padding: 0px auto 90px auto;
+  padding-bottom: 90px;
+  margin: 0 auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -321,15 +322,76 @@ margin: 100px auto 0 auto;
   min-height: 350px;
   flex-basis: 711px;
   background-color:#1f1f1f;
-  margin: 60px auto 40px auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type:none;
+}
+
+.footer__social-icon {
   
 }
 
 
+/*.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}*/
+
+
+
+
+.footer__column-link {
+color: url(../images/facebook_color_white.svg);
+}
+
+.footer__column {
+
+}
+
+.logo {
+
+}
 
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  width: 184px;
-  height: 36px;
+  
+  width: 183px;
+  height: 35px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-repeat: no-repeat;
 }
