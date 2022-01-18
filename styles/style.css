@@ -355,7 +355,6 @@ margin: 100px auto 0 auto;
 
 .footer__column_content_copyright {
   width: 50%;
-  
 }
 
 .footer__column_content_info {
@@ -379,30 +378,28 @@ margin: 100px auto 0 auto;
 }
 
 .footer__column-links {
+  list-style-type:none;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.footer__column_content_social ul {
+  list-style-type:none;
+} 
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.footer__column-link a {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style-type:none;
-  padding-top: 20px;
-  margin-bottom: 16px;
+  color: white;
+  text-decoration: none;
 }
-
-.footer__social-icon {
-  
-}
-
-.footer__column-link {
-color: url(../images/facebook_color_white.svg);
-}
-
-.footer__column {
-
-}
-
-.logo {
-
-}
-
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
