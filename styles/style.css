@@ -198,7 +198,6 @@ margin: 100px auto 0 auto;
   align-items: flex-start;
   justify-content: center;
   width: 648px;
-  
   margin: 0 auto;
   margin-bottom: 70px;
 }
@@ -410,4 +409,9 @@ margin: 100px auto 0 auto;
   left: 0;
   z-index: 99;
   background-repeat: no-repeat;
+}
+
+img[alt] {
+  text-align: end;
+  vertical-align: bottom;
 }
