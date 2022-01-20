@@ -410,8 +410,3 @@ margin: 100px auto 0 auto;
   z-index: 99;
   background-repeat: no-repeat;
 }
-
-img[alt] {
-  text-align: end;
-  vertical-align: bottom;
-}
